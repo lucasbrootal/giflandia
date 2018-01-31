@@ -1,0 +1,33 @@
+
+.title {
+	text-align: center;
+	font-family: 'Archivo Black';
+}
+
+.title span {
+	font-family: 'Karla';
+	font-size: 60%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

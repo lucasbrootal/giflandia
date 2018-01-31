@@ -1,0 +1,21 @@
+@import "compass/reset";
+
+$screen-sm: 480px;
+$screen-md: 768px;
+$screen-lg: 992px;
+
+$light-color: #f7f7f7;
+$gray: #939393;
+$color-1: #f0c1b8; // skin pink
+$color-2: #a4e6f9; // sky blue
+$color-3: #f0b8e3; // intense pink
+$color-4: #fef500; // yellow
+$color-5: #f8e1c6; // light skin
+$color-6: #0036ff; // techno blue
+$color-lack: black;
+
+@import "elements";
+
+@import "classes";
+
+@import "grid";
